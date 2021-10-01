@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
-import { Container, Navbar } from 'react-bootstrap';
-import styles from './styles.module.scss';
+import { Container } from 'react-bootstrap';
+import Header from '../Header';
 
 export default function Layout({children}: any) {
   return (
@@ -10,13 +10,7 @@ export default function Layout({children}: any) {
         <title>Next Amazon</title>
       </Head>
 
-      <header>
-        <Navbar expand="lg" variant="dark" className={styles.navbar}>
-          <Container fluid>
-            <Navbar.Brand className={styles.navbarBrand}>Amazon</Navbar.Brand>
-          </Container>
-        </Navbar>
-      </header>
+      <Header />
       
       <main>
         <Container>

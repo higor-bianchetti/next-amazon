@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, Button } from 'react-bootstrap';
 import styles from './styles.module.scss';
-import { FaShoppingCart } from 'react-icons/fa';
+import { FaCartPlus } from 'react-icons/fa';
 
 interface ProductProps {
   product: {
@@ -36,7 +36,7 @@ export default function Product({product}: ProductProps) {
             }).format(product.price)}</strong>
           </Card.Text>
           <Button size="sm">
-            <FaShoppingCart />
+            <FaCartPlus />
             <span>Add to cart</span>
           </Button>
         </div>
