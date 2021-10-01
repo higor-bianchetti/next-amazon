@@ -1,9 +1,10 @@
 import type { NextPage } from 'next'
+
 import Layout from '../components/Layout'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Col, Container, Row } from 'react-bootstrap';
-import data from '../utils/data';
 import Product from '../components/Product';
+import data from '../utils/data';
+
+import { Col, Container, Row } from 'react-bootstrap';
 
 interface Product {
   id: number,
