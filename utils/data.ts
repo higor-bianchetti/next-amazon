@@ -12,7 +12,8 @@ const data = {
       rating: 4.6,
       numReviews: 13,
       countInStock: 10,
-      description: 'Manchester United Home shirt 2021-2022'
+      description: 'Manchester United Home shirt 2021-2022',
+      slug: 'manchester-united-home-21'
     },
     {
       id: 2,
@@ -26,7 +27,8 @@ const data = {
       rating: 4.8,
       numReviews: 21,
       countInStock: 13,
-      description: 'Liverpool Home shirt 2021-2022'
+      description: 'Liverpool Home shirt 2021-2022',
+      slug: 'liverpool-home-21'
     },
     {
       id: 3,
@@ -40,7 +42,8 @@ const data = {
       rating: 4.5,
       numReviews: 9,
       countInStock: 10,
-      description: 'Chelsea Home shirt 2021-2022'
+      description: 'Chelsea Home shirt 2021-2022',
+      slug: 'chelsea-home-21'
     },
     {
       id: 4,
@@ -54,7 +57,8 @@ const data = {
       rating: 4.9,
       numReviews: 4,
       countInStock: 15,
-      description: 'Manchester City Home shirt 2021-2022'
+      description: 'Manchester City Home shirt 2021-2022',
+      slug: 'manchester-city-home-21'
     },
     {
       id: 5,
@@ -68,7 +72,8 @@ const data = {
       rating: 4.5,
       numReviews: 10,
       countInStock: 20,
-      description: 'Manchester United Away shirt 2021-2022'
+      description: 'Manchester United Away shirt 2021-2022',
+      slug: 'manchester-united-away-21'
     },
     {
       id: 6,
@@ -82,7 +87,8 @@ const data = {
       rating: 4.5,
       numReviews: 10,
       countInStock: 20,
-      description: 'Chelsea Away shirt 2021-2022'
+      description: 'Chelsea Away shirt 2021-2022',
+      slug: 'chelsea-away-21'
     }
   ]
 }

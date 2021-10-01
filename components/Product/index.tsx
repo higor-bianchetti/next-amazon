@@ -1,4 +1,5 @@
 import React from 'react';
+import NextLink from 'next/link';
 import { Card, Button } from 'react-bootstrap';
 import styles from './styles.module.scss';
 import { FaCartPlus } from 'react-icons/fa';
@@ -16,14 +17,19 @@ interface ProductProps {
     rating: number,
     numReviews: number,
     countInStock: number,
-    description: string
+    description: string,
+    slug: string
   }
 }
 
 export default function Product({product}: ProductProps) {
   return (
     <Card>
-      <Card.Img src={product.image} alt={product.name} />
+      <NextLink href={`/product/${product.slug}`} passHref>
+        <a>
+          <Card.Img src={product.image} alt={product.name} />
+        </a>
+      </NextLink>
       <Card.Body>
         <Card.Title>{product.name}</Card.Title>
         <Card.Text>{product.description}</Card.Text>
