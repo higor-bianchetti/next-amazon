@@ -1,0 +1,19 @@
+.cardFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  p {
+    margin: 0;
+  }
+
+  button {
+    display: flex;
+    align-items: center;
+
+    span {
+      display: inline-block;
+      margin-left: 0.5rem;
+    }
+  }
+}

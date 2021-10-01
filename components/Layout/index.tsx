@@ -12,7 +12,7 @@ export default function Layout({children}: any) {
 
       <header>
         <Navbar expand="lg" variant="dark" className={styles.navbar}>
-          <Container>
+          <Container fluid>
             <Navbar.Brand className={styles.navbarBrand}>Amazon</Navbar.Brand>
           </Container>
         </Navbar>
