@@ -1,0 +1,12 @@
+.btnAddToCart {
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    span {
+      display: inline-block;
+      margin-left: 0.5rem;
+    }
+  }
+}

@@ -3,11 +3,20 @@ import Head from 'next/head';
 import { Container } from 'react-bootstrap';
 import Header from '../Header';
 
-export default function Layout({children}: any) {
+interface LayoutProps {
+  title?: string;
+  description?: string;
+  children: any;
+}
+
+export default function Layout({title, description, children}: LayoutProps) {
   return (
     <div>
       <Head>
-        <title>Next Amazon</title>
+        <title>{title ? `${title} - Next Amazon` : 'Next Amazon'}</title>
+        {description && 
+          <meta name="description" content={description}></meta>
+        }
       </Head>
 
       <Header />

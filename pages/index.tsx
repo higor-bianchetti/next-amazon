@@ -18,7 +18,8 @@ interface Product {
   rating: number,
   numReviews: number,
   countInStock: number,
-  description: string
+  description: string,
+  slug: string
 }
 
 const Home: NextPage = () => {

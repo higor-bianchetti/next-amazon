@@ -36,10 +36,11 @@ export default function Product({product}: ProductProps) {
         <div className={styles.cardFooter}>
           <Card.Text>
             <strong>
-            {new Intl.NumberFormat('en-US', {
-              style: 'currency',
-              currency: 'USD'
-            }).format(product.price)}</strong>
+              {new Intl.NumberFormat('en-US', {
+                style: 'currency',
+                currency: 'USD'
+              }).format(product.price)}
+            </strong>
           </Card.Text>
           <Button size="sm">
             <FaCartPlus />
